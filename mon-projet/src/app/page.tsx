@@ -57,12 +57,9 @@ export default function Home() {
     <meta name="description" content="Create and organize sentences with your keywords" />
     <meta name="theme-color" content="#0f172a" />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="icon" href="/icons/web-app-manifest-favicon.ico" />
-    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
   </Head>
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
-        <link rel ="icon" href="/icons/web-app-manifest-favicon.ico" />
       <div className="bg-white border-b border-slate-200 shadow-sm">
         <div className="max-w-4xl mx-auto px-6 py-8">
           <div className="text-center mb-8">
