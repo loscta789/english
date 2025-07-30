@@ -1,0 +1,21 @@
+{
+  "imports": {},
+
+  "compilerOptions": {
+
+    "lib": ["deno.ns", "dom"]
+
+  },
+
+  "tasks": {},
+
+  "permissions": {
+
+    "env": true
+
+  }
+
+}
+
+
+
