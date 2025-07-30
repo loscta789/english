@@ -1,3 +1,5 @@
+"use client";
+
 export async function submit(keyword: string, sentences: string[]): Promise<boolean> {
     const data = { [keyword]: sentences };
     const jsonData = JSON.stringify(data, null, 2);
