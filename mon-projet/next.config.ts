@@ -11,6 +11,7 @@ const withPWANextConfig = withPWA({
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output:"export",
 }
 
 export default withPWANextConfig(nextConfig)
