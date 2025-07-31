@@ -10,7 +10,8 @@ const withPWANextConfig = withPWA({
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  output:"export",
+  trailingSlash: true,
+
 }
 
 export default withPWANextConfig(nextConfig)

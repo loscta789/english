@@ -1,3 +1,4 @@
+"use client";
 // functions/pull.ts
 export async function pull(): Promise<Record<string, string[]> | null> {
     try {

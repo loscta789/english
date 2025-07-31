@@ -52,12 +52,7 @@ export default function Home() {
 
   return (
     <>
-  <Head>
-    <title>Phrase Creator</title>
-    <meta name="description" content="Create and organize sentences with your keywords" />
-    <meta name="theme-color" content="#0f172a" />
-    <link rel="manifest" href="/manifest.json" />
-  </Head>
+
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
       <div className="bg-white border-b border-slate-200 shadow-sm">
