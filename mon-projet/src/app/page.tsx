@@ -7,7 +7,6 @@ import { CreatePhraseModal } from "@/app/components/create-phrase-modal"
 import { PhraseList } from "@/app/components/phrase-list"
 import { Button } from "@/components/ui/button"
 import { Plus, Eye, EyeOff } from "lucide-react"
-import Head from "next/head"
 export default function Home() {
   const [open, setOpen] = useState(false)
   const [dataMap, setDataMap] = useState<Record<string, string[]>>({})
